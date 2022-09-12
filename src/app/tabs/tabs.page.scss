@@ -1,1 +1,32 @@
+ion-tab-bar{
+  --background: var(--ion-color-medium)
+}
 
+ion-tab-button{
+  --color-selected: #fff
+}
+
+
+.player {
+  height: 55px;
+  background-color: var(--ion-color-medium);
+  font-family: 'Spotify';
+  color: white;
+  font-size: small;
+
+  img{
+    height: 55px;
+    width: 100%;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 2px;
+    background-color: #707070;
+
+    .progress{
+      background-color: white;
+      height: 100%;
+    }
+  }
+}
